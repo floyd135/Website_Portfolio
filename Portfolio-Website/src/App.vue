@@ -2,22 +2,24 @@
 import "bootstrap/js/dist/modal";
 </script>
 
-
-
 <template>
-  <div class="row ">
-    <div class="col-2 navBarSection" id="navBarSection">
-      <a href="#">About</a>
-      <a href="#">Skills</a>
-      <a href="#">Work</a>
-      <a href="#">Contact</a>
-    </div>
-
-    
-    <div class="col-10 contentSection main">
+  <div class="row">
+    <div class="bg">
+      <img
+        class="background"
+        src="https://i.ibb.co/QHfMKYf/shutterstock-2104429805.jpg"
+        alt="bg-image"
+      />
       <div class="row">
-        <div class="col-5 intro"><h1>Test 1</h1></div>
-        <div class="col-7 bg"><h1>Test 2</h1></div>
+        <div class="col-6 leftCard">
+          <div class="mainText">
+            <span style="font-style: italic">ANGKOON</span>
+            <br />
+            <span>ANGKOONSAWAENGSUK</span>
+          </div>
+        </div>
+
+        <div class="col-6 rightCard"></div>
       </div>
     </div>
   </div>
@@ -27,50 +29,46 @@ import "bootstrap/js/dist/modal";
 /* Set the width of the side navigation to 250px */
 export default {
   data() {
-    return {
-      navBarSection: document.getElementById("navBarSection"),
-      contentSection: document.getElementById("contentSection"),
-    }
+    return {};
   },
-  methods: {
-    
-  }
-}
+  methods: {},
+};
 </script>
 
 <style lang="sass">
-.main 
-  margin-left: 35vh
-  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 
-.navBarSection
-  height: 100%
-  width: 0
-  position: fixed
-  z-index: 1
-  top: 0
-  left: 0
-  background-color: #111
-  overflow-x: hidden
-  padding-top: 60px
-  transition: 0.5s
-
-  a 
-    padding: 8px 8px 8px 32px
-    text-decoration: none
-    font-size: 25px
-    color: #818181
-    display: block
-    transition: 0.3s
-
-  a:hover
-    color: #f1f1f1
-  
-.contentSection
-  .bg
-    background-image: url("https://iili.io/HahaF1I.th.jpg")
+.bg
+  img
     background-repeat: no-repeat
     background-size: cover
+    background-position: center
     height: 100vh
+    -webkit-filter: blur(5px)
+    -moz-filter: blur(5px)
+    -o-filter: blur(5px)
+    -ms-filter: blur(5px)
+    background-filter: blur(7px)
+    opacity: 0.9
+    z-index: -1
+    position: absolute
 
+.leftCard
+  background-color: white
+  background-color: rgba(255, 255, 255, 0.2)
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2)
+  backdrop-filter: blur(14px)
+  color: black
+  position: absolute
+  z-index: 2
+  width: 100vh
+  height: 100vh
+  
+  .mainText
+    font-family: 'Montserrat', sans-serif
+    font-size: 6vh
+    font-weight: 1000 
+    text-align: left
+    margin-left: 5.5vh
+    padding: 70% 0px 
 </style>

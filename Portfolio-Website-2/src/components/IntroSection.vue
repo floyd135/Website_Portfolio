@@ -29,7 +29,7 @@ import "bootstrap/js/dist/modal";
           left: 0px;
           top: 0px;
           overflow: hidden;
-          object-fit: cover;
+
         "
       >
       </iframe>

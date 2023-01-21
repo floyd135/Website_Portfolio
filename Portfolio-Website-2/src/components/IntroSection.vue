@@ -9,6 +9,7 @@ import "bootstrap/js/dist/modal";
       class="back-video"
       style="
         width: 100%;
+        height: 100%;
         padding-bottom: 56.25%;
         position: absolute;
         z-index: -1;
@@ -28,6 +29,7 @@ import "bootstrap/js/dist/modal";
           left: 0px;
           top: 0px;
           overflow: hidden;
+          object-fit: cover;
         "
       >
       </iframe>

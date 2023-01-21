@@ -15,7 +15,7 @@ import "bootstrap/js/dist/modal";
       "
     >
       <iframe
-        src="https://streamable.com/e/r0hxra?autoplay=1&nocontrols=1"
+        src="https://streamable.com/e/r0hxra"
         frameborder="0"
         width="100%"
         height="100%"
@@ -31,6 +31,12 @@ import "bootstrap/js/dist/modal";
         "
       >
       </iframe>
+
+      <!-- <video width="100%" height="100%" autoplay muted >
+        <source src="https://youtu.be/QbxRuGuR8T0" type="video/mp4">
+         <source src="movie.ogg" type="video/ogg"> -->
+      <!-- Your browser does not support the video tag. 
+      </video> -->
     </div>
 
     <nav>

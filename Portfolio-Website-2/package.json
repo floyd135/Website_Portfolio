@@ -11,7 +11,8 @@
   "dependencies": {
     "bootstrap-vue": "^2.23.1",
     "sass": "^1.57.1",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-cli": "^2.9.6"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

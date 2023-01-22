@@ -4,67 +4,52 @@ import "bootstrap/js/dist/modal";
 
 <template>
   <div class="introHeader">
-    <!-- <video autoplay loop muted plays-inline></video> -->
-    <!-- <div
-      class="back-video"
-      style="
-        width: 100%;
-        height: 100%;
-        padding-bottom: 56.25%;
-        position: absolute;
-        z-index: -1;
-      "
-    >
-      <iframe
-        src="https://streamable.com/e/r0hxra"
-        frameborder="0"
-        width="100%"
-        height="100%"
-        allowfullscreen
-        allow="autoplay"
-        style="
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          left: 0px;
-          top: 0px;
-          overflow: hidden;
-        "
-      >
-      </iframe>
-
-    </div> -->
-
     <nav>
       <!-- <img src="" alt="Logo" /> -->
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Skills</a></li>
-        <li><a href="#">About</a></li>
+        <!-- <li><a href="#">About</a></li> -->
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
 
+    <!-- ------------------------------------- -->
+
+    <div class="row">
+      <div class="bg">
+        <img
+          class="background"
+          src="http://127.0.0.1:8887/bg-intro-header.jpg"
+          alt="bg-image"
+        />
+      </div>
+    </div>
+    <!-- ------------------------------------- -->
+
     <div class="content">
       <h1 style="font-style: italic">Angkoon</h1>
+
       <br />
+
       <div class="row">
         <h1>Angkoonsawaengsuk</h1>
-      <div class="hangingContent">
-        <p
-          style="
-            color: white;
-            font-size: 15px;
-            font-weight: 500;
-            font-style: italic;
-          "
-        >
-          TM
-        </p>
+        <div class="hangingContent">
+          <p
+            style="
+              color: white;
+              font-size: 15px;
+              font-weight: 500;
+              font-style: italic;
+            "
+          >
+            TM
+          </p>
+        </div>
       </div>
-      </div>
-      
+
       <br />
+
       <h3>In Development</h3>
       <div id="container">
         <button class="learn-more">
@@ -101,21 +86,44 @@ $black: #282936
   font-family: 'Mukta', sans-serif
 
 .introHeader
+  overflow: hidden
   width: 100%
-  height: 100vh
-  background: rgb(238,174,202)
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  height:  100vh
+  //background: rgb(238,174,202)
+  //background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
   position: relative
-  padding: 0 5%
+  padding: 0px
+  margin: 0px
   display: flex
   align-items: center
   justify-content: center
 
-//.back-video
-  //position: absolute
-  //right: 0
-  //bottom: 0
-  //z-index: -1
+  //background: url(http://127.0.0.1:8887/bg-intro-header.jpg) no-repeat center center fixed
+  //-webkit-background-size: cover
+  //-moz-background-size: cover
+  //-o-background-size: cover
+  //background-size: cover
+  //-webkit-filter: blur(2px)
+  //background-filter: blur(2px)
+
+.bg
+  img
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: right
+    -webkit-filter: blur(2px)
+    -moz-filter: blur(5px)
+    -o-filter: blur(5px)
+    -ms-filter: blur(5px)
+    background-filter: blur(2px)
+    opacity: 0.9
+    z-index: -1
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+
 
 nav
   width: 100%
@@ -155,7 +163,7 @@ nav
 
       a:hover
         text-decoration: none
-        color: red
+        color: rgba(234,45,55, 0.8)
 
 .content
   text-align: center
@@ -163,8 +171,10 @@ nav
 
 .content h1
   font-size: 80px
-  color: #fff
+  -webkit-text-fill-color: white
+  -webkit-text-stroke: 1px rgba(234,45,55, 0.8)
   font-weight: 700
+
 
 #container
   margin-top: 50px

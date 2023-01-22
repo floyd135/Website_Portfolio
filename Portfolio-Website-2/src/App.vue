@@ -7,12 +7,8 @@ import "bootstrap/js/dist/modal";
     <IntroSection></IntroSection>
   </section>
 
-  <section class="skill">
+  <section class="skill" style="margin-top: 100px; margin-bottom: 100px">
     <SkillSection></SkillSection>
-  </section>
-
-  <section class="about">
-    <AboutSection></AboutSection>
   </section>
 
   <section class="contact">
@@ -23,11 +19,11 @@ import "bootstrap/js/dist/modal";
 <script>
 import IntroSection from "./components/IntroSection.vue";
 import SkillSection from "./components/SkillSection.vue";
-import AboutSection from "./components/AboutSection.vue";
+// import AboutSection from "./components/AboutSection.vue";
 import ContactSection from "./components/ContactSection.vue";
 
 export default {
-  components: { IntroSection, SkillSection, AboutSection, ContactSection },
+  components: { IntroSection, SkillSection, ContactSection },
   data() {
     return {};
   },

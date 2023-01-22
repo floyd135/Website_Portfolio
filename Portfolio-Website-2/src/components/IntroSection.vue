@@ -5,7 +5,6 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="introHeader">
     <nav>
-      <!-- <img src="" alt="Logo" /> -->
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Skills</a></li>
@@ -27,13 +26,13 @@ import "bootstrap/js/dist/modal";
       </div>
     </div>
     <!-- ------------------------------------- -->
-    
+
     <div class="content">
       <h1 style="font-style: italic">Angkoon</h1>
 
       <br />
 
-      <div class="row">
+      <div class="row" style="align-items: center; justify-content: center">
         <h1>Angkoonsawaengsuk</h1>
         <div class="hangingContent">
           <p
@@ -256,7 +255,6 @@ button
       color: $white
 
 // ------------------------------------
-
 @keyframes slide_Animation
   0%
     transform: translateY(700px)

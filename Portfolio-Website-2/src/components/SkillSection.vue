@@ -5,7 +5,7 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="row hero">
     <div class="row">
-      <h2 class="header">Header</h2>
+      <h2 class="header" style="font-size: 50px;">Skill</h2>
     </div>
     <!-- <h1>Candy.</h1>
     <h1>Cherry.</h1>

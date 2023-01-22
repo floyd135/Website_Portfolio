@@ -5,7 +5,7 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="introHeader">
     <!-- <video autoplay loop muted plays-inline></video> -->
-    <div
+    <!-- <div
       class="back-video"
       style="
         width: 100%;
@@ -29,17 +29,11 @@ import "bootstrap/js/dist/modal";
           left: 0px;
           top: 0px;
           overflow: hidden;
-
         "
       >
       </iframe>
 
-      <!-- <video width="100%" height="100%" autoplay muted >
-        <source src="https://youtu.be/QbxRuGuR8T0" type="video/mp4">
-         <source src="movie.ogg" type="video/ogg"> -->
-      <!-- Your browser does not support the video tag. 
-      </video> -->
-    </div>
+    </div> -->
 
     <nav>
       <!-- <img src="" alt="Logo" /> -->
@@ -54,7 +48,24 @@ import "bootstrap/js/dist/modal";
     <div class="content">
       <h1 style="font-style: italic">Angkoon</h1>
       <br />
-      <h1>Angkoonsawaengsuk</h1>
+      <div class="row">
+        <h1>Angkoonsawaengsuk</h1>
+      <div class="hangingContent">
+        <p
+          style="
+            color: white;
+            font-size: 15px;
+            font-weight: 500;
+            font-style: italic;
+          "
+        >
+          TM
+        </p>
+      </div>
+      </div>
+      
+      <br />
+      <h3>In Development</h3>
       <div id="container">
         <button class="learn-more">
           <span class="circle" aria-hidden="true">
@@ -63,19 +74,6 @@ import "bootstrap/js/dist/modal";
           <span class="button-text" style="color: white">Learn More</span>
         </button>
       </div>
-    </div>
-
-    <div class="hangingContent">
-      <p
-        style="
-          color: white;
-          font-size: 15px;
-          font-weight: 500;
-          font-style: italic;
-        "
-      >
-        TM
-      </p>
     </div>
   </div>
 </template>
@@ -105,18 +103,19 @@ $black: #282936
 .introHeader
   width: 100%
   height: 100vh
-  background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3))
+  background: rgb(238,174,202)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
   position: relative
   padding: 0 5%
   display: flex
   align-items: center
   justify-content: center
 
-.back-video
-  position: absolute
-  right: 0
-  bottom: 0
-  z-index: -1
+//.back-video
+  //position: absolute
+  //right: 0
+  //bottom: 0
+  //z-index: -1
 
 nav
   width: 100%

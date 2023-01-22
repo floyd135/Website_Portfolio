@@ -15,18 +15,19 @@ import "bootstrap/js/dist/modal";
     </nav>
 
     <!-- ------------------------------------- -->
-
+    <!-- <a href="https://ibb.co/GkgZD8H"><img src="https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg" alt="bg-intro-header" border="0"></a> -->
     <div class="row">
       <div class="bg">
         <img
           class="background"
-          src="http://127.0.0.1:8887/bg-intro-header.jpg"
+          src="https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg"
           alt="bg-image"
+          border="0"
         />
       </div>
     </div>
     <!-- ------------------------------------- -->
-
+    
     <div class="content">
       <h1 style="font-style: italic">Angkoon</h1>
 

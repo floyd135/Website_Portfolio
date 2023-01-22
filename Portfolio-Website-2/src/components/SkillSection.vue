@@ -112,34 +112,34 @@ export default {
   transition: background-image 0.2s ease-in-out
 
 .imgBox_1
-  background-image: url(http://127.0.0.1:8887/shutterstock_1162547956.jpg)
+  background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
 .imgBox_2
-  background-image: url(http://127.0.0.1:8887/bg-intro-header.jpg)
+  background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
 .imgBox_3
-  background-image: url(http://127.0.0.1:8887/shutterstock_2016881639.jpg)
+  background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
 .hero
   .container
     .skill_1
       .content
         h1:hover~.imgBox_1
-          background-image: url(http://127.0.0.1:8887/bg-contact-header.jpg)
+          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
 
 .hero
   .container
     .skill_2
       .content
         h1:hover~.imgBox_2
-          background-image: url(http://127.0.0.1:8887/bg-contact-header.jpg)
+          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
 
 .hero
   .container
     .skill_3
       .content
         h1:hover~.imgBox_3
-          background-image: url(http://127.0.0.1:8887/bg-contact-header.jpg)
+          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
 
 /*.hero h1:nth-child(2):hover~.imgBox
   background-image: url(http://127.0.0.1:8887/bg-intro-header.jpg)

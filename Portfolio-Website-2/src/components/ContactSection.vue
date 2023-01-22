@@ -4,7 +4,7 @@
       <div class="bg_contact">
         <img
           class="background"
-          src="http://127.0.0.1:8887/bg-contact-header.jpg"
+          src="https://i.ibb.co/wMWWpgC/bg-contact-header.jpg"
           alt="bg-image"
         />
       </div>

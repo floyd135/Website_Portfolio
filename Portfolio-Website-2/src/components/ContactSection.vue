@@ -26,7 +26,8 @@
               <div class="col">
                 <div class="col name">
                   <p>
-                    <span class="fa fa-map-marker"></span> Angkoon Angkoonsawaengsuk
+                    <span class="fa fa-map-marker"></span> Angkoon
+                    Angkoonsawaengsuk
                   </p>
                 </div>
 
@@ -57,7 +58,6 @@
                     <span class="fa fa-envelope"> LOGO - Link</span>
                   </p>
                 </div>
-
               </div>
             </div>
           </div>

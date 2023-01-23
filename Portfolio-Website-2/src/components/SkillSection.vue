@@ -5,18 +5,21 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="row hero">
     <div class="row">
-      <h2 class="header" style="font-size: 50px">Skill</h2>
+      <h2 class="header" style="font-size: 50px">Skill Set</h2>
     </div>
-    <!-- <h1>Candy.</h1>
-    <h1>Cherry.</h1>
-    <h1>Melon.</h1>
-
-    <div class="imgBox"></div> -->
 
     <div class="row container">
-      <div class="skill_1 section">
-        <div class="content">
+      <div class="skill_1 section ">
+        <div class="content collapsible1">
           <h1>Test 1</h1>
+          <div class="content1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
           <div class="imgBox_1"></div>
         </div>
       </div>
@@ -58,17 +61,36 @@ import "bootstrap/js/dist/modal";
         </div>
       </div>
     </div>
-
-    <!-- <div class="row" >
-      <h2 class="header">Footer</h2>
-    </div> -->
   </div>
 </template>
 
 <script>
+let coll
+
 export default {
   data() {
     return {};
+  },
+
+  mounted() {
+    this.collapse();
+  },
+
+  methods: {
+    collapse() {
+     coll = document.getElementsByClassName("collapsible1");
+
+        coll.addEventListener("mouseover", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        
+      });
+    },
   },
 };
 </script>
@@ -166,8 +188,9 @@ export default {
   color: black
   transition: flex 0.4s ease
   position: relative
-  border: 1px solid rgba(255, 255, 255, 0.85)
-  padding: 0px
+  border: 1px solid rgba(255, 255, 255, 0.9)
+  padding: 10px
+  border-radius: 10px
 
 /*.section .overlay
   background: rgba(255, 255, 255, 0.5)
@@ -207,4 +230,27 @@ export default {
   // background-image: url('https://i.ibb.co/DrTVctz/css-particles-background.gif')
   background-repeat: repeat-y
   background-attachment: fixed
+
+.collapsible1 
+  background-color: #777
+  color: black
+  cursor: pointer
+  padding: 18px
+  width: 100%
+  border: none
+  text-align: left
+  outline: none
+  font-size: 15px
+
+
+.active, .collapsible:hover 
+  background-color: #555
+
+
+.content1
+  padding: 0 18px
+  display: none
+  overflow: hidden
+  background-color: #f1f1f1
+
 </style>

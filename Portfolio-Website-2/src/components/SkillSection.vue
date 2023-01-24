@@ -9,10 +9,10 @@ import "bootstrap/js/dist/modal";
     </div>
 
     <div class="row container">
-      <div class="skill_1 section ">
-        <div class="content collapsible1">
+      <div class="skill_1 section">
+        <div class="content collapsible" ref="collapsible">
           <h1>Test 1</h1>
-          <div class="content1">
+          <div class="innerContent">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -25,15 +25,31 @@ import "bootstrap/js/dist/modal";
       </div>
 
       <div class="skill_2 section">
-        <div class="content">
+        <div class="content collapsible">
           <h1>Test 2</h1>
-          <div class="imgBox_2"></div>
+          <div class="innerContent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="imgBox_2 "></div>
         </div>
       </div>
 
       <div class="skill_3 section">
-        <div class="content">
+        <div class="content collapsible">
           <h1>Test 3</h1>
+          <div class="innerContent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
           <div class="imgBox_3"></div>
         </div>
       </div>
@@ -41,22 +57,46 @@ import "bootstrap/js/dist/modal";
 
     <div class="row container">
       <div class="skill_1 section">
-        <div class="content">
+        <div class="content collapsible" ref="collapsible">
           <h1>Test 1</h1>
+          <div class="innerContent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
           <div class="imgBox_1"></div>
         </div>
       </div>
 
       <div class="skill_2 section">
-        <div class="content">
+        <div class="content collapsible">
           <h1>Test 2</h1>
-          <div class="imgBox_2"></div>
+          <div class="innerContent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="imgBox_2 "></div>
         </div>
       </div>
 
       <div class="skill_3 section">
-        <div class="content">
+        <div class="content collapsible">
           <h1>Test 3</h1>
+          <div class="innerContent">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
           <div class="imgBox_3"></div>
         </div>
       </div>
@@ -65,7 +105,7 @@ import "bootstrap/js/dist/modal";
 </template>
 
 <script>
-let coll
+// let coll;
 
 export default {
   data() {
@@ -78,18 +118,30 @@ export default {
 
   methods: {
     collapse() {
-     coll = document.getElementsByClassName("collapsible1");
+      // console.log("collapse alert!");
+      // // this.$refs.collapsible1.classList.toggle("active");
+      // document.querySelector(".collapsible1").classList.toggle("active");
+      // // document.getElementsByClassName("collapsible1").classList.toggle("active");
+      // let content = document.querySelector(".content1");
+      // if (content.style.display === "block") {
+      //   content.style.display = "none";
+      //   console.log("collapse alert! INSIDE 1");
+      // } else {
+      //   content.style.display = "block";
+      //   console.log("collapse alert! INSIDE 2");
+      // }
 
-        coll.addEventListener("mouseover", function () {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        
-      });
+      // coll = document.getElementsByClassName("collapsible1");
+
+      // coll.addEventListener("mouseover", function () {
+      //   this.classList.toggle("active");
+      //   let content = this.nextElementSibling;
+      //   if (content.style.display === "block") {
+      //     content.style.display = "none";
+      //   } else {
+      //     content.style.display = "block";
+      //   }
+      // });
     },
   },
 };
@@ -119,9 +171,9 @@ export default {
     color: #000
     transition: transform 0.5s
 
-.hero h1:hover
-  -webkit-text-fill-color: #000
-  transform: translateY(-10px)
+// .hero h1:hover
+//   -webkit-text-fill-color: #000
+//   transform: translateY(-10px)
 
 .imgBox_1, .imgBox_2, .imgBox_3
   position: absolute
@@ -142,26 +194,62 @@ export default {
 .imgBox_3
   background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
-.hero
-  .container
-    .skill_1
-      .content
-        h1:hover~.imgBox_1
-          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
 
-.hero
-  .container
-    .skill_2
-      .content
-        h1:hover~.imgBox_2
-          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
 
-.hero
-  .container
-    .skill_3
-      .content
-        h1:hover~.imgBox_3
-          background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+.skill_1:hover
+  .imgBox_1
+    background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+        
+  .innerContent
+    display: inline
+  h1
+    -webkit-text-fill-color: #000
+    transform: translateY(-10vh)
+  
+.skill_2:hover
+  .imgBox_2
+    background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+        
+  .innerContent
+    display: inline
+  h1
+    -webkit-text-fill-color: #000
+    transform: translateY(-10vh)
+
+.skill_3:hover
+  .imgBox_3
+    background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+        
+  .innerContent
+    display: inline
+  h1
+    -webkit-text-fill-color: #000
+    transform: translateY(-10vh)
+
+// Old Hover Code //
+// .hero
+//   .container
+//     .skill_1
+//       .content
+//         h1:hover~.imgBox_1
+//           background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+//         h1:hover~.innerContent
+//           display: inline
+
+// .hero
+//   .container
+//     .skill_2
+//       .content
+//         h1:hover~.imgBox_2
+//           background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+
+// .hero
+//   .container
+//     .skill_3
+//       .content
+//         h1:hover~.imgBox_3
+//           background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
+
 
 /*.hero h1:nth-child(2):hover~.imgBox
   background-image: url(http://127.0.0.1:8887/bg-intro-header.jpg)
@@ -231,26 +319,13 @@ export default {
   background-repeat: repeat-y
   background-attachment: fixed
 
-.collapsible1 
-  background-color: #777
-  color: black
-  cursor: pointer
-  padding: 18px
-  width: 100%
-  border: none
-  text-align: left
-  outline: none
-  font-size: 15px
-
-
-.active, .collapsible:hover 
-  background-color: #555
-
-
-.content1
-  padding: 0 18px
+.innerContent
+  z-index: 3
+  position: absolute
   display: none
-  overflow: hidden
-  background-color: #f1f1f1
-
+  top: 50%
+  right: 0%
+  align-content: center
+  justify-content: center
+  margin: 10px
 </style>

@@ -6,10 +6,10 @@ import "bootstrap/js/dist/modal";
   <div class="introHeader">
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="./components/IntroSection.vue">Home</a></li>
+        <li><a href="./components/SkillSection.vue">Skills</a></li>
         <!-- <li><a href="#">About</a></li> -->
-        <li><a href="#">Contact</a></li>
+        <li><a href="./components/ContactSection.vue">Contact</a></li>
       </ul>
     </nav>
 

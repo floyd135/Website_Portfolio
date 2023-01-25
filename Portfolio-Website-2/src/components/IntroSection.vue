@@ -4,14 +4,14 @@ import "bootstrap/js/dist/modal";
 
 <template>
   <div class="introHeader">
-    <nav>
+    <!-- <nav>
       <ul>
         <li><a href="./components/IntroSection.vue">Home</a></li>
         <li><a href="./components/SkillSection.vue">Skills</a></li>
-        <!-- <li><a href="#">About</a></li> -->
+        <li><a href="#">About</a></li>
         <li><a href="./components/ContactSection.vue">Contact</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <!-- ------------------------------------- -->
     <!-- <a href="https://ibb.co/GkgZD8H"><img src="https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg" alt="bg-intro-header" border="0"></a> -->
@@ -19,7 +19,7 @@ import "bootstrap/js/dist/modal";
       <div class="bg">
         <img
           class="background"
-          src="https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg"
+          src="https://i.ibb.co/y87c0w7/hhholographic.png"
           alt="bg-image"
           border="0"
         />
@@ -33,7 +33,7 @@ import "bootstrap/js/dist/modal";
       <br />
 
       <div class="row" style="align-items: center; justify-content: center">
-        <h1>Angkoonsawaengsuk</h1>
+        <h1 style="font-size: 80px">Angkoonsawaengsuk</h1>
         <div class="hangingContent">
           <p
             style="
@@ -74,6 +74,9 @@ export default {
 <style lang="sass">
 @import url('https://fonts.googleapis.com/css?family=Mukta:700')
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
+
 $bg: #f3f8fa
 $white: #fff
 $black: #282936
@@ -83,7 +86,9 @@ $black: #282936
 
 
 *
-  font-family: 'Mukta', sans-serif
+  // font-family: 'couture-bold', sans-serif
+  font-family: 'Montserrat', sans-serif
+  font-family: 'Sarabun', sans-serif
 
 .introHeader
   overflow: hidden
@@ -149,16 +154,18 @@ nav
     li
       list-style: none
       display: inline-block
-      margin-left: 40px
+      // margin-left: 40px
+      margin: 10px
 
 nav
   ul
     li
       a
         text-decoration: none
-        color: #fff
+        color: black
         font-size: 25px
-        font-weight: 500
+        font-weight: 700
+        font-style: italic
         transition: all 0.3s ease-in-out
 
       a:hover
@@ -171,8 +178,8 @@ nav
 
 .content h1
   font-size: 80px
-  -webkit-text-fill-color: white
-  -webkit-text-stroke: 1px rgba(234,45,55, 0.8)
+  -webkit-text-fill-color: black
+  // -webkit-text-stroke: 1px rgba(234,45,55, 0.8)
   font-weight: 700
 
 

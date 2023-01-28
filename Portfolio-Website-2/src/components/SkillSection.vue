@@ -9,7 +9,7 @@ import "bootstrap/js/dist/modal";
         class="header"
         style="font-size: 90px; margin: auto auto; justify-content: center"
       >
-        About Me
+        ABOUT ME
       </h2>
     </div>
 
@@ -262,7 +262,7 @@ export default {
 
 .container
   // display: flex
-  height: 46vh
+  height: 47vh
   margin-right: 0px !important
   margin-left: 0px !important
   max-width: 100% !important

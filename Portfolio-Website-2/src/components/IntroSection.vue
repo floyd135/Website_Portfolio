@@ -68,6 +68,7 @@ export default {
   data() {
     return {};
   },
+  
 };
 </script>
 
@@ -92,7 +93,7 @@ $black: #282936
 
 .introHeader
   overflow-x: hidden
-  hegiht: 100vh
+  hegiht: 100%
 
   background: rgb(238,174,202)
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)

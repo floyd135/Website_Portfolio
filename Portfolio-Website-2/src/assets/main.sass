@@ -1,0 +1,147 @@
+// @import './base.css'
+
+// /* #app {
+//   max-width: 1280px;
+//   margin: 0 auto;
+//   padding: 2rem;
+
+//   font-weight: normal;
+// }
+//   */
+
+// a,
+// .green {
+//   text-decoration: none;
+//   color: hsla(160, 100%, 37%, 1);
+//   transition: 0.4s;
+// }
+
+// @media (hover: hover) {
+//   a:hover {
+//     background-color: hsla(160, 100%, 37%, 0.2);
+//   }
+// }
+
+// @media (min-width: 1024px) {
+//   body {
+//     display: flex;
+//     place-items: center;
+//   }
+
+//   #app {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     padding: 0 2rem;
+//   }
+// }
+
+
+*
+  scroll-behavior: smooth
+  // outline: solid 1px red // For checking which box is overflowing
+  // width: 100%
+
+.scroller
+  // overflow-y: scroll
+  scroll-snap-type: y mandatory
+
+.scroller .intro, .scroller .skill, .scroller .contact
+  scroll-snap-align: start
+
+.skill, .introSec
+  width: 100% !important
+  overflow-x: hidden !important
+
+.introSec
+  padding: 35vh 0px  !important
+  margin-top: 0px
+  margin-bottom: 0px
+  top: 0
+  justify-content: center
+  vertical-align: middle
+  z-index: 1
+
+
+.navBar
+  z-index: 5
+  position: relative
+  display: flex
+  // left: 2vw
+  // padding-top: 20px
+  // justify-content: center
+  // align-items: center
+  background-color: grey
+
+  nav
+    z-index: 5
+    width: 100%
+    // position: fixed
+    top: 0
+    left: 0
+    padding: 0px 0px
+    // display: flex
+    align-items: center
+    justify-content: space-between
+    // background: rgba(255,255,255,1)
+
+
+  nav
+    ul
+      display: flex
+      align-items: center
+      justify-content: center
+      padding-left: 0px
+      // padding-top: auto
+      // padding-bottom: auto
+      margin-bottom: 0px
+
+  nav
+    ul
+      li
+        list-style: none
+        display: inline-block
+        // margin-left: 40px
+        // margin: 0px 5px 
+        padding: 3px 7px 
+        background-color: rgba(234,45,55, 0.1)
+
+      .homeText
+        background-color: #FFD26F
+
+      .skilLtext
+        background-color: #3677FF
+      
+      .contactText
+        background-color: #6018DC
+
+  nav
+    ul
+      li
+        a
+          text-decoration: none
+          color: black
+          font-size: 25px
+          font-weight: 700
+          font-style: italic
+          transition: all 0.3s ease-in-out
+          // background-color: rgba(234,45,55, 0.1)
+
+        a:hover
+          text-decoration: none
+          color: rgba(234,45,55, 1)
+          // background-color: rgba(234,45,55, 0.1)
+          border-radius: 10px
+          // padding: 8px
+
+.navBar .homeText:hover
+  background-color: #FFD26F
+  cursor: pointer
+
+.navBar .skilLtext:hover
+  background-color: #3677FF
+  cursor: pointer
+  
+.navBar .contactText:hover
+  background-color: #6018DC
+  cursor: pointer
+  

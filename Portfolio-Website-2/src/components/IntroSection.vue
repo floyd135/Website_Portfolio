@@ -94,8 +94,8 @@ $black: #282936
   overflow-x: hidden
   hegiht: 100vh
 
-  //background: rgb(238,174,202)
-  //background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  background: rgb(238,174,202)
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
   position: relative
   margin-top: 32vh
   margin-bottom: 32vh

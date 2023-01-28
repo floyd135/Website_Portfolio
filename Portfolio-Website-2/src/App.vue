@@ -21,7 +21,7 @@ import "bootstrap/js/dist/modal";
     <section
       class="skill"
       id="skill"
-      style="margin-top: 100px; margin-bottom: 100px"
+      style="margin-top: 0px; margin-bottom: 0px"
     >
       <SkillSection class="skillSec"></SkillSection>
     </section>
@@ -65,24 +65,38 @@ export default {
   width: 100% !important
   overflow-x: hidden !important
 
+.introSec
+  padding: 25% 0px  !important
+  margin-top: 0px
+  margin-bottom: 0px
+  top: 0
+  justify-content: center
+  vertical-align: middle
+  z-index: 1
+  
+
 .navBar
-  z-index: 3
-  position: relative
+  z-index: 5
+  position: absolute
   display: flex
-  margin-left: auto
-  margin-right: auto
+  left: 2vw
+  padding-top: 20px
   // justify-content: center
   // align-items: center
+  // background-color: black
 
   nav
+    z-index: 5
     width: 100%
-    position: absolute
+    // position: fixed
     top: 0
     left: 0
-    padding: 30px 0px
+    padding: 0px 0px
     // display: flex
     align-items: center
     justify-content: space-between
+    // background: rgba(255,255,255,1)
+    
 
   nav
     ul
@@ -90,8 +104,9 @@ export default {
       align-items: center
       justify-content: center
       padding-left: 0px
-      padding-top: auto
-      padding-bottom: auto
+      // padding-top: auto
+      // padding-bottom: auto
+      margin-bottom: 0px
 
   nav
     ul

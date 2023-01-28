@@ -4,100 +4,102 @@ import "bootstrap/js/dist/modal";
 
 <template>
   <div class="row hero">
-    <div class="row">
-      <h2 class="header" style="font-size: 50px">Skill Set</h2>
+    <div class="col-1 leftContainer">
+      <h2 class="header" style="font-size: 90px; margin: auto auto; justify-content: center; ">Skills</h2>
     </div>
 
-    <div class="row container">
-      <div class="skill_1 section">
-        <div class="content collapsible" ref="collapsible">
-          <h1>Test 1</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+    <div class="col-11 rightContainer">
+      <div class="row container">
+        <div class="skill_1 section">
+          <div class="content collapsible" ref="collapsible">
+            <h1>Test 1</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_1"></div>
           </div>
-          <div class="imgBox_1"></div>
+        </div>
+
+        <div class="skill_2 section">
+          <div class="content collapsible">
+            <h1>Test 2</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_2"></div>
+          </div>
+        </div>
+
+        <div class="skill_3 section">
+          <div class="content collapsible">
+            <h1>Test 3</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_3"></div>
+          </div>
         </div>
       </div>
 
-      <div class="skill_2 section">
-        <div class="content collapsible">
-          <h1>Test 2</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+      <div class="row container">
+        <div class="skill_1 section">
+          <div class="content collapsible" ref="collapsible">
+            <h1>Test 1</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_1"></div>
           </div>
-          <div class="imgBox_2"></div>
         </div>
-      </div>
 
-      <div class="skill_3 section">
-        <div class="content collapsible">
-          <h1>Test 3</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+        <div class="skill_2 section">
+          <div class="content collapsible">
+            <h1>Test 2</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_2"></div>
           </div>
-          <div class="imgBox_3"></div>
         </div>
-      </div>
-    </div>
 
-    <div class="row container">
-      <div class="skill_1 section">
-        <div class="content collapsible" ref="collapsible">
-          <h1>Test 1</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+        <div class="skill_3 section">
+          <div class="content collapsible">
+            <h1>Test 3</h1>
+            <div class="innerContent">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="imgBox_3"></div>
           </div>
-          <div class="imgBox_1"></div>
-        </div>
-      </div>
-
-      <div class="skill_2 section">
-        <div class="content collapsible">
-          <h1>Test 2</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="imgBox_2"></div>
-        </div>
-      </div>
-
-      <div class="skill_3 section">
-        <div class="content collapsible">
-          <h1>Test 3</h1>
-          <div class="innerContent">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div class="imgBox_3"></div>
         </div>
       </div>
     </div>
@@ -177,7 +179,7 @@ export default {
   background-size: cover
   background-position: center
   transition: background-image 0.2s ease-in-out
-  
+
 .imgBox_1
   background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
@@ -217,6 +219,11 @@ export default {
     -webkit-text-fill-color: #000
     transform: translateY(-10vh)
 
+.leftContainer
+  writing-mode: vertical-rl
+  text-orientation: upright
+  font-size: 100px
+
 // Old Hover Code //
 // .hero
 //   .container
@@ -250,7 +257,7 @@ export default {
 
 .container
   // display: flex
-  height: 50vh
+  height: 46vh
   margin-right: 0px !important
   margin-left: 0px !important
   max-width: 100% !important
@@ -320,5 +327,4 @@ export default {
   justify-content: center
   margin: 10px
   height: 100vh
-
 </style>

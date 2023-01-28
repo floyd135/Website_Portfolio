@@ -17,12 +17,12 @@ import "bootstrap/js/dist/modal";
     <!-- <a href="https://ibb.co/GkgZD8H"><img src="https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg" alt="bg-intro-header" border="0"></a> -->
     <div class="row">
       <div class="bg">
-        <img
+        <!-- <img
           class="background"
           src="https://i.ibb.co/y87c0w7/hhholographic.png"
           alt="bg-image"
           border="0"
-        />
+        /> -->
       </div>
     </div>
     <!-- ------------------------------------- -->
@@ -37,7 +37,7 @@ import "bootstrap/js/dist/modal";
         <div class="hangingContent">
           <p
             style="
-              color: white;
+              color: black;
               font-size: 15px;
               font-weight: 500;
               font-style: italic;
@@ -56,7 +56,7 @@ import "bootstrap/js/dist/modal";
           <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
           </span>
-          <span class="button-text" style="color: white">Learn More</span>
+          <span class="button-text" style="color: black">Learn More</span>
         </button>
       </div>
     </div>
@@ -91,17 +91,18 @@ $black: #282936
   font-family: 'Sarabun', sans-serif
 
 .introHeader
-  overflow: hidden
-  width: 100%
-  height:  100vh
+  overflow-x: hidden
+  hegiht: 100vh
+
   //background: rgb(238,174,202)
   //background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
   position: relative
-  padding: 0px
-  margin: 0px
+  margin-top: 32vh
+  margin-bottom: 32vh
   display: flex
   align-items: center
   justify-content: center
+  z-index: 3
 
   //background: url(http://127.0.0.1:8887/bg-intro-header.jpg) no-repeat center center fixed
   //-webkit-background-size: cover
@@ -126,51 +127,50 @@ $black: #282936
     position: absolute
     top: 0
     left: 0
-    width: 100%
     height: 100vh
 
 
-nav
-  width: 100%
-  position: absolute
-  top: 0
-  left: 0
-  padding: 40px 8%
-  display: flex
-  align-items: center
-  justify-content: space-between
+// nav
+//   width: 100%
+//   position: absolute
+//   top: 0
+//   left: 0
+//   padding: 40px 8%
+//   display: flex
+//   align-items: center
+//   justify-content: space-between
 
-nav
-  ul
-    display: flex
-    align-items: center
-    justify-content: center
-    padding-left: 0px
-    padding-top: auto
-    padding-bottom: auto
+// nav
+//   ul
+//     display: flex
+//     align-items: center
+//     justify-content: center
+//     padding-left: 0px
+//     padding-top: auto
+//     padding-bottom: auto
 
-nav
-  ul
-    li
-      list-style: none
-      display: inline-block
-      // margin-left: 40px
-      margin: 10px
+// nav
+//   ul
+//     li
+//       list-style: none
+//       display: inline-block
+//       // margin-left: 40px
+//       margin: 10px
 
-nav
-  ul
-    li
-      a
-        text-decoration: none
-        color: black
-        font-size: 25px
-        font-weight: 700
-        font-style: italic
-        transition: all 0.3s ease-in-out
+// nav
+//   ul
+//     li
+//       a
+//         text-decoration: none
+//         color: black
+//         font-size: 25px
+//         font-weight: 700
+//         font-style: italic
+//         transition: all 0.3s ease-in-out
 
-      a:hover
-        text-decoration: none
-        color: rgba(234,45,55, 0.8)
+//       a:hover
+//         text-decoration: none
+//         color: rgba(234,45,55, 0.8)
 
 .content
   text-align: center
@@ -259,12 +259,12 @@ button
         transform: translate(1rem, 0)
 
     .button-text
-      color: $white
+      color: green
 
 // ------------------------------------
-@keyframes slide_Animation
-  0%
-    transform: translateY(700px)
-  100%
-    transform: translateY(0)
+// @keyframes slide_Animation
+//   0%
+//     transform: translateY(700px)
+//   100%
+//     transform: translateY(0)
 </style>

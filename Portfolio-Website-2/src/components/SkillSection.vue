@@ -35,7 +35,7 @@ import "bootstrap/js/dist/modal";
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="imgBox_2 "></div>
+          <div class="imgBox_2"></div>
         </div>
       </div>
 
@@ -82,7 +82,7 @@ import "bootstrap/js/dist/modal";
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="imgBox_2 "></div>
+          <div class="imgBox_2"></div>
         </div>
       </div>
 
@@ -130,9 +130,7 @@ export default {
       //   content.style.display = "block";
       //   console.log("collapse alert! INSIDE 2");
       // }
-
       // coll = document.getElementsByClassName("collapsible1");
-
       // coll.addEventListener("mouseover", function () {
       //   this.classList.toggle("active");
       //   let content = this.nextElementSibling;
@@ -150,13 +148,8 @@ export default {
 <style lang="sass">
 
 .hero
-  width: 100%
-  height: 75vh
   background: #f3f7fe
   padding: 10px 3%
-  position: relative
-  display: flex
-  align-items: center
   justify-content: space-around
   z-index: 1
 
@@ -184,7 +177,7 @@ export default {
   background-size: cover
   background-position: center
   transition: background-image 0.2s ease-in-out
-
+  
 .imgBox_1
   background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
@@ -194,22 +187,20 @@ export default {
 .imgBox_3
   background-image: url(https://i.ibb.co/ctzW9ZY/bg-intro-header.jpg)
 
-
-
 .skill_1:hover
   .imgBox_1
     background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
-        
+
   .innerContent
     display: inline
   h1
     -webkit-text-fill-color: #000
     transform: translateY(-10vh)
-  
+
 .skill_2:hover
   .imgBox_2
     background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
-        
+
   .innerContent
     display: inline
   h1
@@ -219,7 +210,7 @@ export default {
 .skill_3:hover
   .imgBox_3
     background-image: url(https://i.ibb.co/wMWWpgC/bg-contact-header.jpg)
-        
+
   .innerContent
     display: inline
   h1
@@ -258,8 +249,8 @@ export default {
   background-image: url(http://127.0.0.1:8887/bg-intro-header.jpg)
 
 .container
-  display: flex
-  height: 50%
+  // display: flex
+  height: 50vh
   margin-right: 0px !important
   margin-left: 0px !important
   max-width: 100% !important
@@ -328,4 +319,6 @@ export default {
   align-content: center
   justify-content: center
   margin: 10px
+  height: 100vh
+
 </style>

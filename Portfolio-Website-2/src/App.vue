@@ -3,27 +3,33 @@ import "bootstrap/js/dist/modal";
 </script>
 
 <template>
-  <section class="navBar">
-    <nav>
-      <ul>
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#skill">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </section>
+  <div class="scroller">
+    <section class="intro" id="intro">
+      <section class="navBar">
+        <nav>
+          <ul>
+            <li class="homeText"><a href="#intro">Home</a></li>
+            <li class="skilLtext"><a href="#skill">Skills</a></li>
+            <li class="contactText"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
 
-  <section class="intro" id="intro">
-    <IntroSection></IntroSection>
-  </section>
+      <IntroSection class="introSec"> </IntroSection>
+    </section>
 
-  <section class="skill" id="skill" style="margin-top: 100px; margin-bottom: 100px">
-    <SkillSection></SkillSection>
-  </section>
+    <section
+      class="skill"
+      id="skill"
+      style="margin-top: 100px; margin-bottom: 100px"
+    >
+      <SkillSection class="skillSec"></SkillSection>
+    </section>
 
-  <section class="contact" id="contact">
-    <ContactSection></ContactSection>
-  </section>
+    <section class="contact" id="contact">
+      <ContactSection class="contactSec"></ContactSection>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -42,8 +48,22 @@ export default {
 
 <style lang="sass">
 // @import url('https://fonts.googleapis.com/css?family=Mukta:700')
+
 *
   scroll-behavior: smooth
+  // outline: solid 1px red // For checking which box is overflowing
+  // width: 100%
+
+.scroller
+  // overflow-y: scroll
+  scroll-snap-type: y mandatory
+
+.scroller .intro, .scroller .skill, .scroller .contact
+  scroll-snap-align: start
+
+.skill, .introSec
+  width: 100% !important
+  overflow-x: hidden !important
 
 .navBar
   z-index: 3
@@ -95,4 +115,9 @@ export default {
         a:hover
           text-decoration: none
           color: rgba(234,45,55, 0.8)
+          background-color: rgba(234,45,55, 0.1)
+          border-radius: 10px
+          padding: 8px
+            
+
 </style>

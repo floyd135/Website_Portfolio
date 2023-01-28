@@ -2,11 +2,11 @@
   <div class="main">
     <div class="row">
       <div class="bg_contact">
-        <img
+        <!-- <img
           class="background"
           src="https://i.ibb.co/wMWWpgC/bg-contact-header.jpg"
           alt="bg-image"
-        />
+        /> -->
       </div>
 
       <div class="row">
@@ -70,22 +70,27 @@
 <script></script>
 
 <style lang="sass">
-.bg_contact
-  img
-    background-repeat: no-repeat
-    background-size: cover
-    background-position: right
-    -webkit-filter: blur(2px)
-    -moz-filter: blur(5px)
-    -o-filter: blur(5px)
-    -ms-filter: blur(5px)
-    background-filter: blur(2px)
-    opacity: 0.9
-    z-index: -1
-    position: absolute
-    left: 0
-    width: 100%
-    height: 100vh
+
+.row
+  margin-left: 0px !important
+  margin-right: 0px !important
+
+// .bg_contact
+//   img
+//     // background-repeat: no-repeat
+//     // background-size: cover
+//     // background-position: right
+//     -webkit-filter: blur(2px)
+//     -moz-filter: blur(5px)
+//     -o-filter: blur(5px)
+//     -ms-filter: blur(5px)
+//     background-filter: blur(2px)
+//     opacity: 0.9
+//     z-index: -1
+//     // position: absolute
+//     left: 0
+//     // width: 100vw
+//     // height: 100vh
 
 .card
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
@@ -93,8 +98,7 @@
   position: relative
   width: 50vh
   height: 50vh
-  top: 60%
-  left: 100vh
+
   opacity: 0.9
   border-radius: 20px !important
 

@@ -5,14 +5,14 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="row hero">
     <div class="col-1 leftContainer">
-      <h2 class="header" style="font-size: 90px; margin: auto auto; justify-content: center; ">Skills</h2>
+      <h2 class="header" style="font-size: 90px; margin: auto auto; justify-content: center; ">About Me</h2>
     </div>
 
     <div class="col-11 rightContainer">
       <div class="row container">
         <div class="skill_1 section">
           <div class="content collapsible" ref="collapsible">
-            <h1>Test 1</h1>
+            <h1>Programming</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -27,7 +27,7 @@ import "bootstrap/js/dist/modal";
 
         <div class="skill_2 section">
           <div class="content collapsible">
-            <h1>Test 2</h1>
+            <h1>Miscellaneous</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -42,7 +42,7 @@ import "bootstrap/js/dist/modal";
 
         <div class="skill_3 section">
           <div class="content collapsible">
-            <h1>Test 3</h1>
+            <h1>Soft Skills</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -59,7 +59,7 @@ import "bootstrap/js/dist/modal";
       <div class="row container">
         <div class="skill_1 section">
           <div class="content collapsible" ref="collapsible">
-            <h1>Test 1</h1>
+            <h1>Achievement</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -74,7 +74,7 @@ import "bootstrap/js/dist/modal";
 
         <div class="skill_2 section">
           <div class="content collapsible">
-            <h1>Test 2</h1>
+            <h1>Work Experience</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -89,7 +89,7 @@ import "bootstrap/js/dist/modal";
 
         <div class="skill_3 section">
           <div class="content collapsible">
-            <h1>Test 3</h1>
+            <h1>Publication</h1>
             <div class="innerContent">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

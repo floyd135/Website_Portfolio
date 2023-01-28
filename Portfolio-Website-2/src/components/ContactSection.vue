@@ -12,7 +12,7 @@
 
       <div class="row">
         <div class="col-9 leftCol">
-          <div class="row contactBanner" >
+          <div class="row contactBanner">
             <h1 class="contactHead">Contact</h1>
           </div>
 
@@ -28,44 +28,72 @@
               <div class="row box">
                 <div class="col-6">
                   <div class="row heading"><span>Name</span></div>
-                  <div class="row contentDesc"><span>Angkoon Angkoonsawaengsuk</span></div>
+                  <div class="row contentDesc">
+                    <span>Angkoon Angkoonsawaengsuk</span>
+                  </div>
                 </div>
                 <div class="col-6">
                   <div class="row heading"><span>Phone Number</span></div>
-                  <div class="row contentDesc"><span>(+66) 81 980 8185</span></div>
+                  <div class="row contentDesc">
+                    <span>(+66) 81 980 8185</span>
+                  </div>
                 </div>
               </div>
 
               <div class="row box">
                 <div class="col-6">
                   <div class="row heading"><span>Email</span></div>
-                  <div class="row contentDesc"><span>angkoon841@gmai.com</span></div>
+                  <div class="row contentDesc">
+                    <span>angkoon841@gmai.com</span>
+                  </div>
                 </div>
                 <div class="col-6">
                   <div class="row heading"><span>Line ID</span></div>
                   <div class="row contentDesc"><span>angkoon2544</span></div>
                 </div>
               </div>
-              
+
               <div class="row box">
                 <div class="col-6">
                   <div class="row heading"><span>LinkedIn</span></div>
-                  <div class="row contentDesc"><span><a href="https://www.linkedin.com/in/angkoon-angkoonsawaengsuk/">Link</a></span></div>
+                  <div class="row contentDesc">
+                    <span
+                      ><a
+                        href="https://www.linkedin.com/in/angkoon-angkoonsawaengsuk/"
+                        >Link</a
+                      ></span
+                    >
+                  </div>
                 </div>
                 <div class="col-6">
                   <div class="row heading"><span>Github</span></div>
-                  <div class="row contentDesc"><span><a href="https://github.com/floyd135">Link</a></span></div>
+                  <div class="row contentDesc">
+                    <span><a href="https://github.com/floyd135">Link</a></span>
+                  </div>
                 </div>
               </div>
 
               <div class="row box">
                 <div class="col-6">
                   <div class="row heading"><span>Facebook</span></div>
-                  <div class="row contentDesc"><span><a href="https://www.facebook.com/angkoon.angkoonsawaengsuk/">Link</a></span></div>
+                  <div class="row contentDesc">
+                    <span
+                      ><a
+                        href="https://www.facebook.com/angkoon.angkoonsawaengsuk/"
+                        >Link</a
+                      ></span
+                    >
+                  </div>
                 </div>
                 <div class="col-6">
                   <div class="row heading"><span>Instagram</span></div>
-                  <div class="row contentDesc"><span><a href="https://www.instagram.com/ank.jr_/">Link</a></span></div>
+                  <div class="row contentDesc">
+                    <span
+                      ><a href="https://www.instagram.com/ank.jr_/"
+                        >Link</a
+                      ></span
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -141,7 +169,7 @@
     color: #000000
     text-decoration: none
     transition: color 0.3s
-    
+
   a:hover
     color: red
 

@@ -4,7 +4,11 @@ import "bootstrap/js/dist/modal";
 
 <template>
   <div class="scroller">
-    <section class="intro" id="intro">
+    <section
+      class="intro"
+      id="intro"
+      style="border-bottom: 5px solid white; margin-bottom: 15px"
+    >
       <section class="navBar">
         <nav>
           <ul>
@@ -21,7 +25,11 @@ import "bootstrap/js/dist/modal";
     <section
       class="skill"
       id="skill"
-      style="margin-top: 0px; margin-bottom: 0px"
+      style="
+        margin-top: 0px;
+        border-bottom: 5px solid white;
+        margin-bottom: 15px;
+      "
     >
       <SkillSection class="skillSec"></SkillSection>
     </section>
@@ -73,7 +81,7 @@ export default {
   justify-content: center
   vertical-align: middle
   z-index: 1
-  
+
 
 .navBar
   z-index: 5
@@ -96,7 +104,7 @@ export default {
     align-items: center
     justify-content: space-between
     // background: rgba(255,255,255,1)
-    
+
 
   nav
     ul
@@ -133,6 +141,4 @@ export default {
           background-color: rgba(234,45,55, 0.1)
           border-radius: 10px
           padding: 8px
-            
-
 </style>

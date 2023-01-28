@@ -5,7 +5,12 @@ import "bootstrap/js/dist/modal";
 <template>
   <div class="row hero">
     <div class="col-1 leftContainer">
-      <h2 class="header" style="font-size: 90px; margin: auto auto; justify-content: center; ">About Me</h2>
+      <h2
+        class="header"
+        style="font-size: 90px; margin: auto auto; justify-content: center"
+      >
+        About Me
+      </h2>
     </div>
 
     <div class="col-11 rightContainer">

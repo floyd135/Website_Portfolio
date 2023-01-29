@@ -3,6 +3,7 @@ import "bootstrap/js/dist/modal";
 </script>
 
 <template>
+  <link rel="stylesheet" href="./assets/main.sass">
   <div class="scroller">
     <RouterView></RouterView>
   </div>
@@ -17,5 +18,5 @@ export default {
 </script>
 
 <style lang="sass">
-@import '.assets/main.sass'
+
 </style>

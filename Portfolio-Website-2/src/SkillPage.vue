@@ -3,6 +3,7 @@ import "bootstrap/js/dist/modal";
 </script>
 
 <template>
+  <link rel="stylesheet" href="./assets/main.sass">
   <div class="scroller">
     <section class="intro" id="intro">
       <section class="navBar">
@@ -88,5 +89,5 @@ export default {
 
 <style lang="sass">
 // @import url('https://fonts.googleapis.com/css?family=Mukta:700')
-@import '.assets/main.sass'
+
 </style>

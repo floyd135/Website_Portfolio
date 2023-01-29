@@ -85,5 +85,5 @@ export default {
 
 <style lang="sass">
 // @import url('https://fonts.googleapis.com/css?family=Mukta:700')
-@import 'D:/Resume Material/Resume Material/Web Portfolio/Portfolio-Website-2/src/assets/main.sass'
+@import '.assets/main.sass'
 </style>

@@ -17,5 +17,5 @@ export default {
 </script>
 
 <style lang="sass">
-@import 'D:/Resume Material/Resume Material/Web Portfolio/Portfolio-Website-2/src/assets/main.sass'
+@import '.assets/main.sass'
 </style>
